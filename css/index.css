@@ -1,0 +1,52 @@
+*{
+   
+
+    font-family: Arial,sans-serif;
+}
+
+body{
+    
+    color: white;
+    background: green;
+
+    }
+
+
+span{
+    color: green;
+}
+
+.first-content{
+    background-color: brown;
+}
+
+.second-content{
+    background-color: blueviolet;
+}
+
+.box{
+    background-color: pink;
+    width: 300px;
+    margin-left: 50px;
+    border-width: 5px;
+    border-color: brown;
+    border-style: solid;
+    padding: 50px;
+    background-image: url(../img/seat.jpg);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Times New Romans";
+    color: blue;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 15px;
+    text-align: center;
+}
