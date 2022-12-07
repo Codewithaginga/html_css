@@ -8,6 +8,7 @@ body{
     
     color: white;
     background: green;
+    
 
     }
 
@@ -48,5 +49,106 @@ p{
     margin-bottom: 20px;
     line-height: 1.4;
     font-size: 15px;
-    text-align: center;
+
+    color: maroon;
 }
+
+/* specificity.html*/
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+
+p, h1{
+    color: blue;
+}
+
+.body-textt{
+    background-color: lightskyblue;
+    padding: 50px;
+
+}
+
+.body-textt p{
+    color: white;
+}
+
+.body-textt a{
+    color: brown;
+
+}
+
+.body-textt a:hover{
+    color: gray;
+}
+
+/* list.html */
+
+ol{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+ul{
+    list-style-type: upper-roman;
+    background-color: brown;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ul li{
+    background: red;
+    margin: 5px;
+}
+
+/* floats and clears */
+
+img{
+    float: right;
+    margin-left: 20px;
+
+}
+
+
+.red-box{
+    margin-top: 0;
+
+}
+
+.boxx{
+    width: 100px;
+    height: 100px;
+}
+
+.boxb{
+    background: black;
+}
+.boxr{
+    background: red;
+}
+
+.boxw{
+    background: white;
+}
+
+/* colors */
+
+.box1{
+    width: 50px;
+    color: red;
+    background: rgba(255, 0, 0, .1);
+}
+/* center div */
+
+.container{
+    background: white;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
